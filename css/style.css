@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* =============== Common CSS Start Here =============== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,li,a,p,div{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+    --colorWhite: #fff;
+    --sectionHeadColor: #282938;
+}
+/* =============== Common CSS End Here =============== */
+
+
+/* =============== Header CSS Start Here =============== */
+#header{
+    padding: 32px 0;
+    background: #1C1E53;
+}
+
+#header .custom_navbar ul li a{
+    color: #BBBBCB;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear 0.3s;
+    margin-right: 26px;
+}
+
+#header .custom_navbar ul li a:hover{
+    color: #fff;
+}
+
+#header .custom_navbar .header_btn button{
+    color: var(--colorWhite);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+    padding: 13px 45px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.37);
+    transition: all linear 0.3s;
+    margin-left: 40px;
+}
+
+#header .custom_navbar .header_btn button:hover{
+    background: #fff;
+    color: #1c1e53;
+}
+
+#header .mtmb{
+    padding: 207px 0px;
+}
+
+#header .banner_left h3{
+    color: var(--colorWhite);
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    padding-bottom: 15px;
+}
+
+#header .banner_left p{
+    color: var(--colorWhite);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 35px;
+    opacity: 0.7;
+    margin-right: 80px;
+}
+
+#header .banner_left .view{
+    color: var(--colorWhite);
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 40px;
+    border-radius: 41px;
+    margin-right: 40px;
+    transition: all linear 0.3s;
+}
+
+#header .banner_left .view:hover{
+    color: #1B1C2B;
+    border-radius: 41px;
+    background: #FCD980;
+}
+
+#header .banner_left .pricing{
+    color: var(--colorWhite);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 40px;
+    border-radius: 41px;
+    transition: all linear 0.3s;
+} 
+
+#header .banner_left .pricing:hover{
+    color: #1B1C2B;
+    border-radius: 41px;
+    background: #FCD980;
+}
+
+#header .banner_left .pricing span{
+    margin-left: 12px;
+    margin-top: 10px;
+    display: inline-block;
+}
+/* =============== Header CSS End Here =============== */
+
+/* =============== Common CSS Start Here =============== */
+/* =============== Common CSS End Here =============== */
