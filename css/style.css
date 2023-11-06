@@ -14,6 +14,7 @@ ul,ol{
 
 a{
     text-decoration: none;
+    display: inline-block;
 }
 
 img{
@@ -136,5 +137,242 @@ h1,h2,h3,h4,h5,h6,li,a,p,div{
 }
 /* =============== Header CSS End Here =============== */
 
-/* =============== Common CSS Start Here =============== */
-/* =============== Common CSS End Here =============== */
+/* =============== Work CSS Start Here =============== */
+#work{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+#work .work_left h3{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+#work .work_left p{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-right: 10px;
+    padding-bottom: 16px;
+}
+
+#work .work_left a{
+    color: #2405F2;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#work .work_left a span{
+    color: #2405F2;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 10px;
+}
+
+#work .right_work .thumbnail_icon{
+    margin-bottom: 16px;
+}
+
+#work .right_work h3{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+#work .right_work p{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-right: 100px;
+}
+/* =============== Work CSS End Here =============== */
+
+/* =============== Project CSS Start Here =============== */
+#project .project_heading h3{
+    color: var(--sectionHeadColor);
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+#project .project_head_right a{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+#project .project_head_right a span{
+    margin-left: 10px;
+}
+
+#project .mb_project{
+    padding-bottom: 64px;
+}
+
+#project .project_left{
+    position: relative;
+}
+
+#project .project_left .overley{
+    position: absolute;
+    width: 396px;
+    height: 600px;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    top: 0;
+    left: 0;
+}
+
+#project .project_left .overley .overley_text_project{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+#project .project_left .overley .overley_text_project h3{
+    color: var(--colorWhite);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-bottom: 15px;
+
+}
+
+#project .project_left .overley .overley_text_project p{
+    color: var(--colorWhite);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+
+#project .project_left .overley .overley_text_project a{
+    color: #FCD980;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#project .project_left .overley .overley_text_project a span{
+    margin-left: 10px;
+}
+
+
+#project .right_project .right_project_image{
+    position: relative;
+}
+
+#project .right_project .right_project_image .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    width: 405px;
+    height: 284px;
+}
+
+#project .right_project .right_project_image .overlay .right_overlay_text{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+
+#project .right_project .right_project_image .overlay .right_overlay_text h3{
+    margin-right: 100px;
+    color: var(--colorWhite);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-bottom: 10px;
+}
+
+#project .right_project .right_project_image .overlay .right_overlay_text a{
+    color: #FCD980;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#project .right_project .right_project_image .overlay .right_overlay_text a span{
+    margin-left: 10px;
+}
+
+/* =============== Project CSS End Here =============== */
+
+/* =============== Product CSS Start Here =============== */
+#product{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+#product .product_head p{
+    color: #282938;
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+#product .product_head h3{
+    color: #282938;
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 47px;
+    padding: 0px 330px;
+}
+
+#product .product_item {
+    padding: 58px 48px;
+    background: #fff;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+#product .product_item .product_thumbnail{
+    padding-bottom: 22px;
+}
+
+#product .product_item h3{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+#product .product_item p{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* =============== Product CSS End Here =============== */
+
+/* =============== Product CSS Start Here =============== */
+/* =============== Product CSS End Here =============== */
