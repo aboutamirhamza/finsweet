@@ -450,6 +450,11 @@ h1,h2,h3,h4,h5,h6,li,a,p,div{
     opacity: 0.87;
 }
 
+#faq .faq_right_content .custom_accordion_item{
+    border: none;
+    border-bottom: 1px solid #ECECF1;
+}
+
 #faq .faq_right_content .custom_accordion_item button{
     color: #282938;
     font-family: var(--poppins);
@@ -658,6 +663,171 @@ h1,h2,h3,h4,h5,h6,li,a,p,div{
     margin-left: 15px;
 }
 /* =============== Blog CSS End Here =============== */
+
+/* =============== Footer CSS Start Here =============== */
+#footer{
+    background: #1C1E53;
+    padding-top: 95px;
+}
+
+#footer .footer_left .footer_logo{
+    margin-bottom: 22px;
+}
+
+#footer .footer_left p{
+    color: var(--colorWhite, #FFF);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.8;
+    padding-right: 181px;
+    padding-bottom: 86px;
+}
+
+#footer .footer_left .yellow_section{
+    background: #FCD980;
+    padding: 17px 25px;
+}
+
+#footer .footer_left .yellow_section .headline ul li:nth-child(1) a{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#footer .footer_left .yellow_section .headline ul li:nth-child(2) a{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#footer .footer_right h3{
+    color: #FFF;
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    padding-bottom: 14px;
+}
+
+#footer .footer_right p{
+    color: #F4F6FC;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+    padding-right: 235px;
+    padding-bottom: 28px;
+}
+
+#footer .footer_right .social_icon a:nth-child(1){
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    margin-right: 25px;
+    color: #1877f2;
+    transition: all linear 0.3s;
+}
+
+#footer .footer_right .social_icon a:nth-child(1):hover{
+    background: #1877f2;
+    color: #fff;
+    transform: translateY(-30%);
+}
+
+
+#footer .footer_right .social_icon a:nth-child(2){
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    margin-right: 25px;
+    color: #00acee;
+    transition: all linear 0.3s;
+}
+
+#footer .footer_right .social_icon a:nth-child(2):hover{
+    background: #00acee;
+    color: #fff;
+    transform: translateY(-30%);
+}
+
+#footer .footer_right .social_icon a:nth-child(3){
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    margin-right: 25px;
+    color: #962fbf;
+    transition: all linear 0.3s;
+}
+
+#footer .footer_right .social_icon a:nth-child(3):hover{
+    background: orange;
+    color: #fff;
+    transform: translateY(-30%);
+}
+
+#footer .footer_right .social_icon a:nth-child(4){
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    color: #0077b5;
+    transition: all linear 0.3s;
+}
+
+#footer .footer_right .social_icon a:nth-child(4):hover{
+    background: #0077b5;
+    color: #fff;
+    transform: translateY(-30%);
+}
+
+/* =============== Footer CSS End Here =============== */
+
+/* =============== Footer-End CSS Start Here =============== */
+#footer_end{
+    background: #fff;
+    padding: 32px 0px;
+}
+
+#footer_end .footer_end_left p{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#footer_end .footer_end_right ul{
+    display: flex;
+    column-gap: 32px;
+}
+
+#footer_end .footer_end_right ul li a{
+    color: #282938;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    transition: all linear 0.3s;
+}
+
+#footer_end .footer_end_right ul li a:hover{
+    color: #0077b5;
+}
+/* =============== Footer-End CSS End Here =============== */
 
 /* =============== Product CSS Start Here =============== */
 /* =============== Product CSS End Here =============== */
